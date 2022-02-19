@@ -7,7 +7,7 @@ The special thing about this site is that it allows the user to explore individu
 ## Notable tools
 This app was created using Create-React-App and uses redux to manage states. The store is saved to browser's local storage, so that it is persistent if the user comes back to explore the site. The store also uses the thunk middleware to make calls to the Star Wars API and pass the returned data into the dispatched action.
 
-## File Structure
+## App Structure
 - actions (folder)
     - films, people, & planets actions
     - reset
