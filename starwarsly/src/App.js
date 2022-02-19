@@ -1,3 +1,9 @@
+/**
+ * The main App component containing a NavBar and Routes.
+ * Note that <App> is wrapped in <Provider> and <PersisteGate>
+ * components (see index.js for more details)
+ */
+
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom'
 

@@ -1,3 +1,7 @@
+/**
+ * A collapsible NavBar for going to the homepage, ./films, ./planets, or
+ * ./people pages. 
+ */
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 

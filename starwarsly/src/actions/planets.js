@@ -1,3 +1,11 @@
+/**
+ * The getPlanetFromAPI function dispatches the gotPlanet action. It makes
+ * an asynchronous call to the Star Wars API, updates/cleans the data 
+ * using regular expression, and passes that data into the gotPlanet
+ * action. Asynchronous calls return a promise (instead of an object), 
+ * so middleware is used in the store to allow getPlanetFromAPI to pass 
+ * in film data retrieved from the API.
+ */
 import axios from "axios";
 import { LOAD_PLANET } from "./types";
 

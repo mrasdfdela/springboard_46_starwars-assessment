@@ -1,3 +1,9 @@
+/**
+ * This component is used to display a list of items (Films, 
+ * People, or Planets) from the redux store. The list will link to 
+ * the specific resource (ex: ./film/{id})
+ */
+
 import React from 'react';
 import { Link } from "react-router-dom";
 

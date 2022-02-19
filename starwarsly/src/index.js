@@ -1,3 +1,12 @@
+/**
+ * This is the entry point for the application. 
+ * The App component is given access to the redux store by wrapping it in
+ * a Provider component & passing in the store as a prop
+ * PersistGate delays the rendering of the UI until a persisted state has
+ * been retreived. The associated persistedStore is retreived from the
+ * store file and passed in via the persistor prop.
+ */
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';

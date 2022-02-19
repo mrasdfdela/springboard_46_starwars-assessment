@@ -1,3 +1,16 @@
+/**
+ * This film component displays a film based on the url parameter.
+ * Using an ID, it looks up the film; if it is not currently in the
+ * store, it dispatches an action that queries the film from the 
+ * Star Wars API. The page displays a loading method until the 
+ * film is retrieved.
+ * If/when the film is saved in the store, the component checks the 
+ * list of planet and character ID's associated w/ the film, checks
+ * the store and displays their names them if their names are in 
+ * that store. If their names are not in the store, it will display 
+ * "Unknown" with a link to that planet/film.
+ */
+
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from "react-redux";
 import {useParams} from "react-router-dom";

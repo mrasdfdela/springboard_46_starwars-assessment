@@ -1,3 +1,7 @@
+/**
+ * Defined action types that can be reused in multiple places.
+ */
+
 export const LOAD_FILM = "LOAD_FILM";
 export const LOAD_PLANET = "LOAD_PLANET";
 export const LOAD_PERSON = "LOAD_PERSON";

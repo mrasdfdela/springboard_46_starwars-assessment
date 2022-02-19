@@ -1,3 +1,8 @@
+/**
+ * The home page, which will display a link to the original Star Wars film
+ * or a button to reset the Redux store/site exploration.
+ */
+
 import React from 'react';
 import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from 'react-redux';

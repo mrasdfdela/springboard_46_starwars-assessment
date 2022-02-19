@@ -1,3 +1,9 @@
+/**
+ * This reducer returns/updates the states of the film list. 
+ * The actions will either set all films to their original state
+ * or store a film id & its associated payload
+ */
+
 import { LOAD_FILM, RESET_ALL } from "../actions/types";
 
 const INITIAL_STATE = {};

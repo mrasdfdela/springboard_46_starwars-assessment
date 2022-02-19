@@ -1,3 +1,12 @@
+/**
+ * The getFilmFromAPI function dispatches the gotFilm action. It makes
+ * an asynchronous call to the Star Wars API, updates/cleans the data 
+ * using regular expression, and passes that data into the gotFilm
+ * action. Asynchronous calls return a promise (instead of an object), 
+ * so middleware is used in the store to allow getFilmFromAPI to pass 
+ * in film data retrieved from the API.
+ */
+
 import axios from 'axios';
 import { LOAD_FILM } from "./types";
 

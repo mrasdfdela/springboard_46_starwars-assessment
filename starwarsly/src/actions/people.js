@@ -1,3 +1,11 @@
+/**
+ * The getPersonFromAPI function dispatches the gotPerson action. It makes
+ * an asynchronous call to the Star Wars API, updates/cleans the data 
+ * using regular expression, and passes that data into the gotPerson
+ * action. Asynchronous calls return a promise (instead of an object), 
+ * so middleware is used in the store to allow getPersonFromAPI to pass 
+ * in film data retrieved from the API.
+ */
 import axios from "axios";
 import { LOAD_PERSON } from "./types";
 

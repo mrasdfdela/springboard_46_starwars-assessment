@@ -1,3 +1,15 @@
+/**
+ * This Person component displays a film based on the url parameter.
+ * Using an ID, it looks up the character; if it is not currently in the
+ * store, it dispatches an action that queries the character from the 
+ * Star Wars API. The page displays a loading method until the 
+ * character is retrieved.
+ * If/when the character is saved in the store, the component checks the 
+ * list of planet and film ID's associated w/ the character, checks the
+ * store and displays their names them if their names are in that store. 
+ * If their names are not in the store, it will display "Unknown" with a
+ * link to that planet/film.
+ */
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useParams } from "react-router-dom";

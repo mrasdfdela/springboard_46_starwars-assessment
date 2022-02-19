@@ -1,3 +1,7 @@
+/**
+ * Routes for accessing different pages, including url parameters for 
+ * film, planet, and people IDs corresponding to the Star Wars API IDs.
+ */
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import FilmList from "./FilmList";

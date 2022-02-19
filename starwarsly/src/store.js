@@ -1,3 +1,11 @@
+/**
+ * This initializes the redux store with the root reducer and includes
+ * the thunk middleware and redux-persist. These allow the app to 
+ * dispatch asynchronous actions (for querying the Star Wars API) and
+ * to save the redux library in local storage, allowing the App's store
+ * to persist even if users navigate away from it.
+ */
+
 import  { composeWithDevTools} from "redux-devtools-extension";
 import { persistStore, persistReducer } from "redux-persist";
 import storage from "redux-persist/lib/storage";

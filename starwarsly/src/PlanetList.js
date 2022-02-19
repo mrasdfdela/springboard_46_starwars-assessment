@@ -1,3 +1,8 @@
+/**
+ * This displays a full list of Star Wars planets saved to the store.
+ * Planets are added as they are visited via the homepage or the 
+ * film/people pages.
+*/
 import React from 'react';
 import {useSelector} from 'react-redux';
 import ItemList from './ItemList'
